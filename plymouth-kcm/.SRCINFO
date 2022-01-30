@@ -1,0 +1,26 @@
+pkgbase = plymouth-kcm
+	pkgdesc = KCM to manage the Plymouth (Boot) theme
+	pkgver = 5.23.4
+	pkgrel = 1
+	url = https://invent.kde.org/plasma/plymouth-kcm.git
+	arch = any
+	license = GPL
+	makedepends = cmake
+	makedepends = kdoctools
+	makedepends = extra-cmake-modules
+	depends = plymouth
+	depends = knewstuff
+	depends = kconfig
+	depends = kconfigwidgets
+	depends = ki18n
+	depends = kdeclarative
+	depends = kcmutils
+	source = https://download.kde.org/stable/plasma/5.23.4/plymouth-kcm-5.23.4.tar.xz
+	source = https://download.kde.org/stable/plasma/5.23.4/plymouth-kcm-5.23.4.tar.xz.sig
+	validpgpkeys = 2D1D5B0588357787DE9EE225EC94D18F7F05997E
+	validpgpkeys = E0A3EB202F8E57528E13E72FD7574483BB57B18D
+	validpgpkeys = 0AAC775BB6437A8D9AF7A3ACFE0784117FBCE11D
+	sha256sums = 97108d05df1f5d81eac11b7713b46a43c2d2232a4c7ef387ed28de832dc9c285
+	sha256sums = SKIP
+
+pkgname = plymouth-kcm
